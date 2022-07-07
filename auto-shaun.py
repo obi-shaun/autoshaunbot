@@ -11,7 +11,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 api_hash = '{secrets manager reference}'
 bot_token = '{secrets manager reference}'
-weather_key = 
+open_weather_api_key = '{secrets manager reference}'
 api_id = 13563722
 bot = TelegramClient('anon', api_id, api_hash).start(bot_token=bot_token)
 
